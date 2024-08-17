@@ -452,8 +452,8 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container2 .box1{
-    width:100rem;
-    margin:1rem 1rem;
+    width:95rem;
+    margin:0.1rem 1rem;
     padding-left: 4rem;
     /*border-left: .2rem solid #fff;*/
     position: relative;
@@ -493,6 +493,11 @@ header .navbar ul li a:hover{
 }
 .education .box-container2 .box1 h3:hover{
 	color:var(--yellow);
+
+}
+ol li{
+	font-size: 2rem;
+    color:#fff;
 
 }
 
