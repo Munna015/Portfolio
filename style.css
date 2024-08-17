@@ -495,7 +495,7 @@ header .navbar ul li a:hover{
 	color:var(--yellow);
 
 }
-ol li{
+.education .box-container2 .box1 ol li{
 	font-size: 2rem;
     color:#fff;
 
