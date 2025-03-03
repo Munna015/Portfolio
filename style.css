@@ -108,6 +108,11 @@ header .user .name{
     color:#fff;
 }
 
+header .user .name1{
+    font-size: 2.8 rem;
+    color:#fff;
+}
+
 header .user .post{
     font-size: 2rem;
     color:#eee;
