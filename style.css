@@ -156,7 +156,7 @@ header {
 
 .logo {
   color: white;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -164,7 +164,7 @@ header {
 /* Menu toggle icon */
 #menu {
   display: none;
-  font-size: 26px;
+  font-size: 28px;
   color: white;
   cursor: pointer;
 }
