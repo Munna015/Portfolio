@@ -165,7 +165,7 @@ header {
 /* Menu toggle icon */
 #menu {
   display: none;
-  font-size: 28px;
+  font-size: 26px;
   color: white;
   cursor: pointer;
 }
@@ -185,6 +185,7 @@ header {
   padding: 8px 12px;
   display: block;
   transition: background 0.3s;
+  font-size: 28px;
 }
 
 .navbar ul li a:hover {
