@@ -79,7 +79,7 @@ section{
     color:var(--yellow);
 }
 
-header{
+/*header{
     position: fixed;
     top:0; left:0;
     z-index: 1000;
@@ -91,7 +91,8 @@ header{
     justify-content: center;
     flex-flow: column;
     text-align: center;
-}
+}*/
+header{}
 
 header .user img{
     margin-top: 20px;
