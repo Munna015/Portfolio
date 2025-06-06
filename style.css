@@ -37,6 +37,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
+    text-align:center;
     background:#111;
     overflow-x: hidden;
     /*padding-left: 35rem;*/
