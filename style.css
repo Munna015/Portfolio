@@ -264,7 +264,7 @@ header {
     padding: 1rem 0;
 }*/
 .home {
-  padding: 0 15rem;
+  padding: 0 10vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,11 +275,16 @@ header {
 .home-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
+  width: 100%;
 }
 
-/* Home image */
+.home-image {
+  flex-shrink: 0;
+}
+
 .home-image img {
   width: 220px;
   height: 220px;
@@ -290,16 +295,15 @@ header {
 
 .home-content {
   max-width: 600px;
+  color: white;
 }
 
 .home-content h3 {
   font-size: 2.5rem;
-  color: #fff;
 }
 
 .home-content h1 {
-  font-size: 5rem;
-  color: #fff;
+  font-size: 4.5rem;
 }
 
 .home-content h1 span {
@@ -308,30 +312,31 @@ header {
 
 .home-content h5 {
   font-size: 2rem;
-  color: #eee;
 }
 
 .home-content p {
   font-size: 2rem;
-  color: #eee;
   padding: 1rem 0;
 }
 
-/* ✅ Responsive Fix */
-@media (max-width: 768px) {
+/* Tablet & Mobile Responsive */
+@media (max-width: 1024px) {
   .home {
-    padding: 2rem;
-    text-align: center;
+    padding: 4rem 5vw;
   }
 
   .home-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+  }
+
+  .home-image img {
+    width: 180px;
+    height: 180px;
   }
 
   .home-content h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
 
   .home-content h3 {
@@ -342,12 +347,29 @@ header {
   .home-content p {
     font-size: 1.5rem;
   }
+}
+
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .home-content h3 {
+    font-size: 1.6rem;
+  }
+
+  .home-content h5,
+  .home-content p {
+    font-size: 1.3rem;
+  }
 
   .home-image img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
 }
+
+
 
 
 .about{
