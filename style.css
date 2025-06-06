@@ -80,7 +80,7 @@ section{
 }
 
 header{
-    /*position: fixed;
+    position: fixed;
     top:0; left:0;
     z-index: 1000;
     height:100%;
@@ -90,7 +90,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    text-align: center;*/
+    text-align: center;
 }
 
 header .user img{
