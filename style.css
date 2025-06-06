@@ -269,7 +269,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #111; /* Optional: dark background */
+  background: #111;
 }
 
 .home-container {
@@ -279,6 +279,7 @@ header {
   flex-wrap: wrap;
 }
 
+/* Home image */
 .home-image img {
   width: 220px;
   height: 220px;
@@ -315,6 +316,39 @@ header {
   color: #eee;
   padding: 1rem 0;
 }
+
+/* ✅ Responsive Fix */
+@media (max-width: 768px) {
+  .home {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .home-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content h1 {
+    font-size: 3.2rem;
+  }
+
+  .home-content h3 {
+    font-size: 2rem;
+  }
+
+  .home-content h5,
+  .home-content p {
+    font-size: 1.5rem;
+  }
+
+  .home-image img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
 
 .about{
     display: flex;
