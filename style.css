@@ -367,6 +367,13 @@ header {
     justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
+    margin-top: 2rem; /* Minimal gap from previous section */
+}
+
+/* Remove default heading margin to reduce space */
+.about h1,
+.about h3 {
+    margin: 0;
 }
 
 .about h3 {
