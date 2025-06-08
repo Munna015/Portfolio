@@ -266,9 +266,9 @@ header {
 .home {
   padding: 0 10vw;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   background: #111;
 }
 
@@ -453,7 +453,7 @@ header {
     }
 }
 .home, .about {
-  border: 1px solid red; /* debug only */
+  border: 1px solid blue; /* debug only */
 }
 
 /*.about .row{
