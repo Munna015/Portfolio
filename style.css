@@ -512,14 +512,14 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:1rem 0;
-    padding-left: 3rem;
+    /*padding:1rem 0;*/
+    padding: 0 15rem;
 }
 
 .education .box-container .box{
     width:27rem;
     margin:4rem 1rem;
-    padding-left: 4rem;
+    /*padding-left: 4rem;*/
     border-left: .2rem solid #fff;
     position: relative;
 }
