@@ -264,11 +264,11 @@ header {
     padding: 1rem 0;
 }*/
 .home {
-  padding: 0 10vw;
+  padding: 5rem 10vw 2rem; /* top, horizontal, bottom */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  #min-height: 100vh;
   background: #111;
 }
 
@@ -398,6 +398,7 @@ header {
 }*/
 
 .about {
+    margin-top: 0;
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -427,6 +428,7 @@ header {
 /* ✅ Tablet (up to 1024px) */
 @media (max-width: 1024px) {
     .about {
+	margin-top: 0;
         padding: 0 5rem;
     }
 
@@ -446,6 +448,7 @@ header {
 /* ✅ Mobile (up to 768px) */
 @media (max-width: 768px) {
     .about {
+	margin-top: 0;
         padding: 0 2rem;
     }
 
