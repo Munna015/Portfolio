@@ -1058,7 +1058,7 @@ header {
 }
 
 /*.experience-card:hover {
-  background: #2e4; /* green hover */
+  background: #2e4; /* green hover 
   transform: scale(1.02);
   color: #000;
 }*/
@@ -1152,11 +1152,11 @@ header {
   transition: background 0.3s, transform 0.3s;
 }
 
-.skill-card:hover {
+/*.skill-card:hover {
   background: #2e4;
   transform: scale(1.03);
-  color: #000;
-}
+  color: #43bb48;
+}*/
 
 .skill-card i {
   font-size: 2.5rem;
