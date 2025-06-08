@@ -816,6 +816,12 @@ header {
   color: #fff;
 }
 
+.edu-details h4 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
 .edu-details p {
   font-size: 1.5rem;
   color: #eee;
@@ -835,6 +841,9 @@ header {
 
   .edu-details h3 {
     font-size: 1.8rem;
+  }
+.edu-details h4 {
+    font-size: 1.6rem;
   }
 
   .edu-details p {
@@ -858,6 +867,9 @@ header {
 
   .edu-details h3 {
     font-size: 1.6rem;
+  }
+ .edu-details h4 {
+    font-size: 1.45rem;
   }
 
   .edu-details p {
