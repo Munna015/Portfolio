@@ -905,15 +905,26 @@ header {
 
 /* Ordered list with nice spacing and decimal numbering */
 .publication-list {
-  list-style-type: decimal;
-  list-style-position: inside;
-  padding-left: 1rem;
-  margin: 0;
+  list-style: decimal inside;
+  padding-left: 0;
+  counter-reset: pub-counter;
 }
 
 .publication-list li {
-  margin-bottom: 2rem;
+  counter-increment: pub-counter;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  position: relative;
 }
+
+.publication-list li::marker {
+  color: var(--yellow); /* or white or any color */
+  font-size: 1.6rem;
+}
+
 
 /* Actual publication content */
 .publication-item {
