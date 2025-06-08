@@ -1057,11 +1057,11 @@ header {
   transition: background 0.3s, transform 0.3s;
 }
 
-.experience-card:hover {
+/*.experience-card:hover {
   background: #2e4; /* green hover */
   transform: scale(1.02);
   color: #000;
-}
+}*/
 
 .experience-card h3 {
   font-size: 2rem;
