@@ -453,7 +453,7 @@ header {
     }
 }
 .home, .about {
-  border: 1px solid green; /* debug only */
+  border: 1px solid red; /* debug only */
 }
 
 /*.about .row{
