@@ -507,19 +507,19 @@ header {
     color:#fff;
 }*/
 
-.education .box-container{
+/*.education .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /*padding:1rem 0;*/
+    /*padding:1rem 0;
     padding: 0 15rem;
 }
 
 .education .box-container .box{
     width:27rem;
     margin:4rem 1rem;
-    /*padding-left: 4rem;*/
+    /*padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
 }
@@ -643,7 +643,7 @@ header {
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-   /* color:var(--yellow);*/
+   /* color:var(--yellow);
 }
 
 .top{
@@ -660,7 +660,7 @@ header {
     height: 50px;
     border-radius: 50%;
     text-align: center;
-    /*line-height: 100px;*/
+    /*line-height: 100px;
     vertical-align: middle;
     padding: 10px;
     margin-left: 10px;
@@ -735,7 +735,7 @@ header {
     width:90rem;
     margin:0.1rem 1rem;
     padding-left: 4rem;
-    /*border-left: .2rem solid #fff;*/
+    /*border-left: .2rem solid #fff;
     position: relative;
 }
 
@@ -779,6 +779,90 @@ header {
 	font-size: 2rem;
     color:#fff;
 
+}
+*/
+.education {
+  padding: 0 15rem;
+  color: #fff;
+}
+
+.education .heading {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.education .heading span {
+  color: var(--yellow);
+}
+
+.edu-entry {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.edu-time {
+  width: 150px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--yellow);
+  flex-shrink: 0;
+}
+
+.edu-details h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.edu-details p {
+  font-size: 1.5rem;
+  color: #eee;
+  margin: 0.3rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .education {
+    padding: 0 5rem;
+  }
+
+  .edu-time {
+    width: 120px;
+    font-size: 1.4rem;
+  }
+
+  .edu-details h3 {
+    font-size: 1.8rem;
+  }
+
+  .edu-details p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 0 2rem;
+  }
+
+  .edu-entry {
+    flex-direction: column;
+  }
+
+  .edu-time {
+    width: auto;
+    font-size: 1.4rem;
+  }
+
+  .edu-details h3 {
+    font-size: 1.6rem;
+  }
+
+  .edu-details p {
+    font-size: 1.3rem;
+  }
 }
 
 
