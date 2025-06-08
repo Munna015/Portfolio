@@ -362,31 +362,84 @@ header {
 
 
 
-.about{
+.about {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding:0 15rem;
+    padding: 0 15rem;
 }
 
-.about h3{
+.about h3 {
     font-size: 2.5rem;
-    color:#fff;
+    color: #fff;
 }
 
-.about h1{
-    font-size:5rem;
-    color:#fff;
+.about h1 {
+    font-size: 5rem;
+    color: #fff;
 }
 
-.about h1 span{
-    color:var(--yellow);
+.about h1 span {
+    color: var(--yellow);
 }
 
-.about p{
-    font-size:2rem;
-    color:#eee;
+.about p {
+    font-size: 2rem;
+    color: #eee;
     padding: 1rem 0;
+}
+
+/* ✅ Tablet (up to 1024px) */
+@media (max-width: 1024px) {
+    .about {
+        padding: 0 5rem;
+    }
+
+    .about h1 {
+        font-size: 4rem;
+    }
+
+    .about h3 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1.8rem;
+    }
+}
+
+/* ✅ Mobile (up to 768px) */
+@media (max-width: 768px) {
+    .about {
+        padding: 0 2rem;
+    }
+
+    .about h1 {
+        font-size: 3rem;
+    }
+
+    .about h3 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 1.6rem;
+    }
+}
+
+/* ✅ Small mobile (up to 480px) */
+@media (max-width: 480px) {
+    .about h1 {
+        font-size: 2.5rem;
+    }
+
+    .about h3 {
+        font-size: 1.6rem;
+    }
+
+    .about p {
+        font-size: 1.4rem;
+    }
 }
 
 /*.about .row{
