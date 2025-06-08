@@ -644,7 +644,7 @@ header {
 .contact .row .content .info h3 i{
     padding-right: 1rem;
    /* color:var(--yellow);
-}
+}*/
 
 .top{
     position: fixed;
@@ -660,7 +660,7 @@ header {
     height: 50px;
     border-radius: 50%;
     text-align: center;
-    /*line-height: 100px;
+    /*line-height: 100px;*/
     vertical-align: middle;
     padding: 10px;
     margin-left: 10px;
@@ -668,7 +668,7 @@ header {
 .circle-icon:hover{
     background:var(--yellow);
 }
-.education .box-container1{
+/*.education .box-container1{
     display: flex;
     align-items: center;
     justify-content: space-between;
