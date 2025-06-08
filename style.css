@@ -877,6 +877,76 @@ header {
     font-size: 1.3rem;
   }
 }
+.publication {
+  padding: 2rem 10vw;
+  background: #111;
+}
+
+.publication .heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.publication .heading span {
+  color: var(--yellow);
+}
+
+.publication-group {
+  margin-bottom: 4rem;
+}
+
+.subheading {
+  color: var(--yellow);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Ordered list with nice spacing and decimal numbering */
+.publication-list {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.publication-list li {
+  margin-bottom: 2rem;
+}
+
+/* Actual publication content */
+.publication-item {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.publication-item:hover {
+  background: #004d00; /* hover green */
+}
+
+.publication-item h3 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+}
+
+.publication-item p {
+  font-size: 1.4rem;
+  color: #ccc;
+  margin: 0;
+}
+
+.publication-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.publication-item a:hover h3 {
+  color: #aaffaa;
+}
 
 
 @media (max-width: 1024px) {
