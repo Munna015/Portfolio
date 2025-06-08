@@ -452,6 +452,9 @@ header {
         font-size: 1.4rem;
     }
 }
+.home, .about {
+  border: 1px solid red; /* debug only */
+}
 
 /*.about .row{
     display: flex;
