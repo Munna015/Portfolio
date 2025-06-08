@@ -323,19 +323,24 @@ header {
 @media (max-width: 768px) {
   .home {
     padding: 1rem;
+   
+   
   }
 
   .home-content h1 {
     font-size: 3rem;
+    text-align: center;
   }
 
   .home-content h3 {
     font-size: 2.2rem;
+    text-align: center;
   }
 
   .home-content h5,
   .home-content p {
     font-size: 1.6rem;
+    text-align: center;
   }
 
   .home-image img {
@@ -348,15 +353,18 @@ header {
 @media (max-width: 480px) {
   .home-content h1 {
     font-size: 2.5rem;
+   text-align: center;
   }
 
   .home-content h3 {
     font-size: 2rem;
+    text-align: center;
   }
 
   .home-content h5,
   .home-content p {
     font-size: 1.4rem;
+    text-align: center;
   }
 
   .home-image img {
