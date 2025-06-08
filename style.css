@@ -363,9 +363,9 @@ header {
 
 
 .about {
-    display: flex;
+    /*display: flex;*/
     /* justify-content: center;*/
-    flex-flow: column;
+    /*flex-flow: column;*/
     padding: 0 15rem;
     margin: 0; /* Removes extra space around the section */
 }
@@ -782,13 +782,9 @@ header {
 }
 */
 .education {
-  /*padding: 0 15rem;
-  color: #fff;*/
-	display: flex;
-    /* justify-content: center;*/
-    flex-flow: column;
-    padding: 0 15rem;
-    margin: 0; /* Removes extra space around the section */
+  padding: 0 15rem;
+  color: #fff;
+	
 }
 
 .education .heading {
