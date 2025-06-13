@@ -1246,8 +1246,8 @@ header {
 }
 
 .project-card:hover {
-  background: #2e4;
-  transform: scale(1.03);
+  /*background: #2e4;
+  transform: scale(1.03);*/
   color: #004d00;
 }
 
@@ -1258,7 +1258,8 @@ header {
 }
 
 .project-card a:hover h3 {
-  color: black;
+  /*color: black;*/
+  color: #aaffaa;
 }
 
 .project-card .desc {
