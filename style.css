@@ -1248,7 +1248,7 @@ header {
 .project-card:hover {
   background: #2e4;
   transform: scale(1.03);
-  color: #000;
+  color: #004d00;
 }
 
 .project-card a h3 {
